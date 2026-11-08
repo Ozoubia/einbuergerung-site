@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Einbürgerungstest Coach</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --ink: #141a2e;
+        --muted: #4a5468;
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --primary: #2a3f8f;
+        --line: #d3d9e6;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ink: #e9edf6;
+          --muted: #a5aec2;
+          --bg: #0d1220;
+          --card: #151c2e;
+          --primary: #9db2ff;
+          --line: #2d3750;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 24px;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 1.25;
+      }
+      h2 {
+        font-size: 21px;
+        margin-top: 32px;
+      }
+      h3 {
+        font-size: 17px;
+      }
+      a {
+        color: var(--primary);
+      }
+      code {
+        font-family: ui-monospace, monospace;
+        font-size: 0.9em;
+      }
+      blockquote {
+        margin: 16px 0;
+        padding: 8px 16px;
+        border-left: 3px solid var(--primary);
+        color: var(--muted);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 14px;
+      }
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 6px 8px;
+        text-align: left;
+      }
+      nav {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+      }
+      footer {
+        color: var(--muted);
+        font-size: 14px;
+        margin-top: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="index.html">Einbürgerungstest Coach</a><a href="privacy.html">Datenschutz / Privacy</a
+        ><a href="impressum.html">Impressum</a><a href="licenses.html">Lizenzen / Licences</a>
+      </nav>
+      <div class="card">
+        <h1>Einbürgerungstest Coach</h1>
+        <p>
+          Prepare for the German <strong>Leben in Deutschland</strong> / Einbürgerungstest: all 310 questions
+          for your Bundesland, with explanations in German, English, Arabic and French. No ads, no account, no
+          tracking. Everything stays on your phone.
+        </p>
+        <p>
+          Bereite dich auf den Einbürgerungstest vor: alle 310 Fragen für dein Bundesland, mit Erklärungen.
+          Keine Werbung, kein Konto, kein Tracking.
+        </p>
+        <ul>
+          <li><a href="privacy.html">Datenschutzerklärung / Privacy policy</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="licenses.html">Open-Source-Lizenzen / Licences</a></li>
+        </ul>
+      </div>
+      <footer>
+        Unabhängiges Lernangebot – nicht mit dem BAMF oder einer Behörde verbunden. Independent learning tool,
+        not affiliated with BAMF or any government body.
+      </footer>
+    </main>
+  </body>
+</html>
